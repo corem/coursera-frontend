@@ -1,19 +1,19 @@
-import React from 'react';
-import { Navbar, NavbarBrand } from 'reactstrap';
+import React, { Component } from 'react';
 import './App.css';
-import Menu from './components/MenuComponent';
+import Main from './components/MainComponent';
+class App extends Component {
 
-function App() {
-  return (
-    <div className="App">
-      <Navbar dark color='primary'>
-        <div className="container">
-          <NavbarBrand href="/">Ristorante Con Fusion</NavbarBrand>
-        </div>
-      </Navbar>
-      <Menu />
-    </div>
-  );
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    return (
+      <div>
+        <Main />
+      </div>
+    )
+  }
 }
 
 export default App;
