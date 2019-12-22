@@ -4,7 +4,7 @@ import { Card, CardImg, CardBody, CardText, CardTitle } from 'reactstrap';
 function RenderDish({ dish }) {
     if (dish != null) {
         return (
-            <div className='col-12 col-md-5 m-1'>
+            <div className='col-12 col-md-6'>
                 <Card>
                     <CardImg width="100%" src={dish.image} alt={dish.name} />
                     <CardBody>
