@@ -26,13 +26,13 @@ function RenderDish({ dish }) {
     }
 }
 
-function RenderComments({ comments, postComment, dishId }) {
+function RenderComments({comments, addComment, dishId}) {
     const com = comments.map(comment => {
         return (
             <li key={comment.id}>
                 <p>{comment.comment}</p>
                 <p>-- {comment.author},&nbsp;
-                    {new Intl.DateTimeFormat('en-US', {
+                {new Intl.DateTimeFormat('en-US', {
                     day: '2-digit',
                     month: 'long',
                     year: 'numeric'
@@ -47,7 +47,7 @@ function RenderComments({ comments, postComment, dishId }) {
             <ul className='list-unstyled'>
                 {com}
             </ul>
-            <CommentForm dishId={dishId} postComment={postComment} />
+            <CommentForm dishId={dishId} addComment={addComment} />
         </div>
     )
 }
@@ -73,7 +73,7 @@ const DishDetail = (props) => {
                 <div className='row'>
                     <RenderDish dish={props.dish} />
                     <RenderComments comments={props.comments}
-                        postComment={props.postComment}
+                        addComment={props.addComment}
                         dishId={props.dish.id} />
                 </div>
             </div>
@@ -96,9 +96,8 @@ class CommentForm extends Component {
     }
 
     handleSubmit(values) {
-        console.log('Current State is: ' + JSON.stringify(values));
-        alert('Current State is: ' + JSON.stringify(values));
         this.toggleModal();
+        this.props.addComment(this.props.dishId, values.rating, values.author, values.comment);
     }
 
     toggleModal = () => {
