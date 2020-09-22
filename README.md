@@ -5,7 +5,11 @@ The purpose of this course was to create a restaurant website using the react fr
 
 # How to run?
 Install json-server and start it with:
+```javascript
 json-server --watch db.json -p 3001
+```
 
 Start the react server with:
+```javascript
 yarn start
+```
