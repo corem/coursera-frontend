@@ -15,6 +15,8 @@ Start react server:
 yarn start
 ```
 
+The website will be available at http://localhost:3000/home
+
 # Overview
 ![Homepage preview](https://github.com/corem/coursera-frontend/tree/master/React/overview/confusion_home.png?raw=true)
 ![Menu preview](https://github.com/corem/coursera-frontend/tree/master/React/overview/confusion_menu.png?raw=true)
