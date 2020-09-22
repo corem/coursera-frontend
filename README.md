@@ -4,12 +4,13 @@ This small size project is my first contact with the React world. The code prese
 The purpose of this course was to create a restaurant website using the react framework. 
 
 # How to run?
-Install json-server and start it with:
+The course linked in the previous section provides all information needed to download, install and configure the required tools. 
+Once everything is ready, start json-server:
 ```javascript
 json-server --watch db.json -p 3001
 ```
 
-Start the react server with:
+Start react server:
 ```javascript
 yarn start
 ```
