@@ -271,6 +271,17 @@
       "message": "afadsfds",
       "date": "2017-12-04T09:41:49.890Z",
       "id": 1
+    },
+    {
+      "date": "2020-01-19T14:56:45.506Z",
+      "firstname": "Test",
+      "lastname": "Test",
+      "telnum": "0123489789",
+      "email": "test@test.be",
+      "agree": false,
+      "contactType": "Email",
+      "message": "Test",
+      "id": 2
     }
   ]
 }
