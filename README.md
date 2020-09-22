@@ -1,4 +1,4 @@
-# coursera-frontend
+# About this repository
 
 This small size project is my first contact with the React world. The code present in this repository was produced during my completion of the Full-Stack Web Development with React Specialization on the Coursera platform (https://www.coursera.org/specializations/full-stack-react?).
 The purpose of this course was to create a restaurant website using the react framework. 
@@ -14,3 +14,9 @@ Start react server:
 ```javascript
 yarn start
 ```
+
+# Overview
+![Homepage preview](https://github.com/corem/coursera-frontend/tree/master/React/overview/confusion_home.png?raw=true)
+![Menu preview](https://github.com/corem/coursera-frontend/tree/master/React/overview/confusion_menu.png?raw=true)
+![About us preview](https://github.com/corem/coursera-frontend/tree/master/React/overview/confusion_aboutus.png?raw=true)
+![Contact us preview](https://github.com/corem/coursera-frontend/tree/master/React/overview/confusion_contactus.png?raw=true)
