@@ -18,7 +18,22 @@ yarn start
 The website will be available at http://localhost:3000/home
 
 # Overview
-![Homepage preview](https://github.com/corem/coursera-frontend/tree/master/React/overview/confusion_home.png?raw=true)
-![Menu preview](https://github.com/corem/coursera-frontend/tree/master/React/overview/confusion_menu.png?raw=true)
-![About us preview](https://github.com/corem/coursera-frontend/tree/master/React/overview/confusion_aboutus.png?raw=true)
-![Contact us preview](https://github.com/corem/coursera-frontend/tree/master/React/overview/confusion_contactus.png?raw=true)
+## Homepage
+<div align="center">
+    <img src="/React/overview/confusion_home.png" width="800px"</img> 
+</div>
+
+## Menu
+<div align="center">
+    <img src="/React/overview/confusion_menu.png" width="800px"</img> 
+</div>
+
+## About us
+<div align="center">
+    <img src="/React/overview/confusion_aboutus.png" width="800px"</img> 
+</div>
+
+## Contact us
+<div align="center">
+    <img src="/React/overview/confusion_contactus.png" width="800px"</img> 
+</div>
